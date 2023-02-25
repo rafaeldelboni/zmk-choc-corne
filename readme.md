@@ -6,4 +6,4 @@ https://github.com/rafaeldelboni/alphadel-crkbd-keymap
 ## Features
 - conditional_layers for `adjust_layer`
 - tap-dance for `&tp`, enabling commands like CESC (Ctrl on hold or ESC on tap)
-- macro for `cedil` (cedilla) on linux `RALT + COMMA`
+- dynamic mod with for `cedil` (cedilla) on linux `RALT + COMMA`
