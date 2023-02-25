@@ -57,7 +57,7 @@
        &trans &trans   &trans &kp C_VOL_DN &kp C_PREV &trans     &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp BSLH &trans
                                     &tp LGUI DEL &trans &trans   &trans &trans &trans
       >;
-    }
+    };
 
     adjust_layer {
       bindings = <
