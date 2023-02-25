@@ -33,6 +33,7 @@
     cedil: cedil {
              label = "cedilla";
              compatible = "zmk,behavior-macro";
+             #binding-cells = <0>;
              bindings
                = <&macro_press &kp RALT>
                , <&macro_tap &kp COMMA>
