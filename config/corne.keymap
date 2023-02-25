@@ -29,19 +29,6 @@
     };
   };
 
-  macros {
-    cedil: cedil {
-             label = "cedilla";
-             compatible = "zmk,behavior-macro";
-             #binding-cells = <0>;
-             bindings
-               = <&macro_press &kp RALT>
-               , <&macro_tap &kp COMMA>
-               , <&macro_release &kp RALT>
-               ;
-           };
-  };
-
   keymap {
     compatible = "zmk,keymap";
 
@@ -56,10 +43,10 @@
 
     lower_layer {
       bindings = <
-        &trans &kp N1  &kp N2    &kp N3    &kp N4    &kp N5     &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
-        &trans &kp TAB &kp GRAVE &kp TILDE &kp SQT   &trans     &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans    &trans
-        &trans &trans  &trans    &cedil    &kp COLON &kp PSCRN  &trans   &trans   &trans &trans    &kp QMARK &trans
-                                          &trans &trans &trans  &trans &trans &trans
+        &trans &kp N1  &kp N2    &kp N3        &kp N4    &kp N5     &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
+        &trans &kp TAB &kp GRAVE &kp TILDE     &kp SQT   &trans     &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans    &trans
+        &trans &trans  &trans    &kp RA(COMMA) &kp COLON &kp PSCRN  &trans   &trans   &trans &trans    &kp QMARK &trans
+                                              &trans &trans &trans  &trans &trans &trans
       >;
     };
 
