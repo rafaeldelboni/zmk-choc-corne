@@ -53,8 +53,8 @@
     raise_layer {
       bindings = <
        &trans &kp EXCL &kp AT &kp HASH     &kp DLLR   &kp PRCNT  &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &trans
-       &trans &trans   &trans &kp C_VOL_UP &kp C_NEXT &kp C_PP   &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp PIPE &trans
-       &trans &trans   &trans &kp C_VOL_DN &kp C_PREV &trans     &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp BSLH &trans
+       &trans &trans   &trans &kp C_VOL_UP &kp C_NEXT &kp C_PP   &kp MINUS &kp EQUAL &kp LBRC  &kp RBRC &kp PIPE &trans
+       &trans &trans   &trans &kp C_VOL_DN &kp C_PREV &trans     &kp UNDER &kp PLUS  &kp LBKT  &kp RBKT &kp BSLH &trans
                                     &tp LGUI DEL &trans &trans   &trans &trans &trans
       >;
     };
