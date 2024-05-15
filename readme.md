@@ -7,3 +7,5 @@ https://github.com/rafaeldelboni/alphadel-crkbd-keymap
 - conditional_layers for `adjust_layer`
 - tap-dance for `&tp`, enabling commands like CESC (Ctrl on hold or ESC on tap)
 - dynamic mod with for `cedil` (cedilla) on linux `RALT + COMMA`
+
+![keymap](keymap-drawer/corne.svg)
