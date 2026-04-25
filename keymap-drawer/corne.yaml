@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   adjust:
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - '&bootloader'
   - F1
   - F2
@@ -154,7 +154,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:bluetooth-off$$
-  - {t: ▽, type: trans}
+  - '&sys_reset'
   - KP NLCK
   - F9
   - F10
